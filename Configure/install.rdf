@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:md="http://localhost/module/schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<md:Install>
+		<md:ModuleRDF>Install</md:ModuleRDF>
+		<md:ModuleRDFVer>1.2.1082</md:ModuleRDFVer>
+		<md:Name>BTSync</md:Name>
+		<md:Version>1.2.1082</md:Version>md:Version>
+		<md:Description>Securely sync files between computers</md:Description>
+		<md:Key>btsync</md:Key>
+		<md:Authors>gilbert brian</md:Authors>
+		<md:Thanks></md:Thanks>
+		<md:WebUrl></md:WebUrl>
+		<md:UpdateUrl></md:UpdateUrl>
+		<md:Reboot>No</md:Reboot>
+		<md:HomePage>www/index.htm</md:HomePage>
+		<md:MacStart></md:MacStart>
+		<md:MacEnd></md:MacEnd>
+		<md:Show>1</md:Show>
+		<md:Publish>1</md:Publish>
+		<md:Login>1</md:Login>
+		<md:Icon>logo.png</md:Icon>
+		<md:Mode>User</md:Mode>
+		<md:UI>User</md:UI>
+	</md:Install>
+
+</rdf:RDF>

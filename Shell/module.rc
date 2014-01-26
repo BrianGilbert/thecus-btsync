@@ -1,0 +1,42 @@
+#/bin/sh
+#start up btsync script for module
+
+module_name=$2
+
+#Function
+start(){
+  echo "BT Sync start"
+
+/raid/data/module/btsync/bin/$(uname -m)/btsync --config /raid/data/module/btsync/bin/sync.conf
+
+}
+
+
+stop(){
+  echo "BT Sync stop"
+
+killall btsync
+
+}
+
+case "$1" in
+  boot)
+    start
+    ;;
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
+  reset-configuration)
+    stop
+    start
+    ;;
+  *)
+    echo "Usage: $module_name {boot|start|stop|reset-configuration}"
+    exit 1
+    ;;
+esac
+
+exit 0
