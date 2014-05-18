@@ -5,9 +5,9 @@
 
 	<md:Install>
 		<md:ModuleRDF>Install</md:ModuleRDF>
-		<md:ModuleRDFVer>1.2.1082</md:ModuleRDFVer>
+		<md:ModuleRDFVer>1.2.1094</md:ModuleRDFVer>
 		<md:Name>BTSync</md:Name>
-		<md:Version>1.2.1082</md:Version>md:Version>
+		<md:Version>1.2.1094</md:Version>md:Version>
 		<md:Description>Securely sync files between computers</md:Description>
 		<md:Key>btsync</md:Key>
 		<md:Authors>gilbert brian</md:Authors>
